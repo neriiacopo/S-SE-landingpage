@@ -1,0 +1,77 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Lato, sans-serif;
+  letter-spacing: normal;
+  margin: 234px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: "Roboto Mono";
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: none;
+  margin: 55px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  text-decoration: underline !important;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  padding: 0;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 43px auto 0 0;
+  padding: 0;
+}
+
+.u-section-1 .u-line-1 {
+  width: 150px;
+  height: 5px;
+  transform-origin: right center 0px;
+  margin: -15px 0 60px auto;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 195px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 60px;
+  }
+
+  .u-section-1 .u-line-1 {
+    margin-top: 146px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 126px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 58px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-top: 23px;
+  }
+
+  .u-section-1 .u-line-1 {
+    margin-top: 17px;
+  }
+}
