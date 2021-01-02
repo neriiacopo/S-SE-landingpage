@@ -5,7 +5,7 @@
 .u-section-1 .u-text-1 {
   font-family: Lato, sans-serif;
   letter-spacing: normal;
-  margin: 234px 0 0;
+  margin: 216px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -31,7 +31,7 @@
   width: 150px;
   height: 5px;
   transform-origin: right center 0px;
-  margin: 54px 0 0 auto;
+  margin: 72px 0 0 auto;
 }
 
 .u-section-1 .u-btn-3 {
@@ -40,7 +40,7 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin: -16px auto 60px 0;
+  margin: -16px auto 0 0;
   padding: 0;
 }
 
@@ -79,7 +79,7 @@
 
   .u-section-1 .u-btn-3 {
     margin-top: -177px;
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
 }
 
