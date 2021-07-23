@@ -108,3 +108,15 @@
 }.on-top {
 z-index:9999
 }
+
+.cursor {
+    position: fixed;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background: #fff;
+    transition: 0.1%;
+    transform: translate(-50%,-50%);
+    pointer-events:none;
+    mix-blend-mode:difference;
+}
