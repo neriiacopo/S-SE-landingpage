@@ -147,6 +147,7 @@ i.contact-icon {
 
 * {
   cursor: none;
+  overflow: hidden;
 }
 
 #cursor {
