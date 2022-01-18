@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 16px" lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,6 +29,10 @@
       crossorigin="anonymous"
     ></script>
 
+    <!--FLICKITY CAROUSEL-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <!--FONTAWESOME-->
     <link
       href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
@@ -42,19 +46,36 @@
       rel="stylesheet"
     />
 
+    <!--IONICONS-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon" />
   </head>
   <body>
+
+    <!-- Cursor -->
+    <div id="cursor"></div>
+    <script type="text/javascript">
+      var cursor = document.getElementById("cursor");
+      document.addEventListener("mousemove", function (e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+      });
+    </script>
+
     <header id="landing-container">
       <video autoplay loop muted playsinline id="bg-vid">
-        <source src="public/S-SE_map_video_4.mp4" type="video/mp4" />
+        <source src="/public/S-SE_map_video_4.mp4" type="video/mp4" />
       </video>
 
       <div id="landing-item-top">
         <div class="text-left">
           <a href="#" title="s-se">
-            <img src="public/Logo3-04.png" width="63" />
+            <img src="public/Logo3-04.png" width="50" />
           </a>
         </div>
 
@@ -102,13 +123,13 @@
           data-target="#about">ABOUT</a>
         </div>
         <div class="text-right">
-          <svg height="7.5" width="150">
+          <svg height="5" width="100">
             <line
               x1="0"
               y1="0"
-              x2="150"
+              x2="100"
               y2="0"
-              style="stroke: rgb(0, 0, 0); stroke-width: 7.5"
+              style="stroke: rgb(0, 0, 0); stroke-width: 5"
             />
           </svg>
          </div>
@@ -116,20 +137,19 @@
 
     </header>
 
-
     <!-- Modal -->
     <div
       class="modal"
       id="about"
       tabindex="-1"
-      role="dialog"
       aria-labelledby="aboutCenterTitle"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" style="width:100%; max-width:800px; min-width:200px; padding:20px"role="document">
-        <div class="modal-content shadow-lg  rounded-more">
+
+      <div class="modal-dialog modal-dialog-centered " role="document">
+        <div class="modal-content rounded-more">
           <video autoplay loop muted playsinline id="bg-vid-abt">
-            <source src="public/anim1009.mp4" type="video/mp4" />
+            <source src="/public/anim1009.mp4" type="video/mp4" />
           </video>
           
           <div class="modal-body text-center">
@@ -155,14 +175,9 @@
 
 
           </div>
-          </div>
         </div>
       </div>
     </div>
 
-    
-    <!--IONICONS-->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
