@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=900" />
     <title>S-SE</title>
 
     <!--BOOTSTRAP-->
@@ -55,18 +55,6 @@
   </head>
   <body>
 
-    <!-- Cursor -->
-    <div id="cursor"></div>
-    <script type="text/javascript">
-      var cursor = document.getElementById("cursor");
-      document.addEventListener("mousemove", function (e) {
-        var x = e.clientX;
-        var y = e.clientY;
-        cursor.style.left = x + "px";
-        cursor.style.top = y + "px";
-      });
-    </script>
-
     <header id="landing-container">
       <video autoplay loop muted playsinline id="bg-vid">
         <source src="/public/S-SE_map_video_4.mp4" type="video/mp4" />
@@ -109,6 +97,7 @@
           we work at the intersection of Architecture, Ecology and Design
         </h1>
       </div>
+
       <div id="landing-item-subtitle">
         <p>FOR PROJECT ENQUIRIES OR QUESTIONS</p>
         <a href="mailto:studio.spatial.entities@gmail.com" target="_top"
@@ -139,34 +128,36 @@
 
     <!-- Modal -->
     <div
-      class="modal"
+      class="modal "
       id="about"
       tabindex="-1"
       aria-labelledby="aboutCenterTitle"
       aria-hidden="true"
     >
 
-      <div class="modal-dialog modal-dialog-centered " role="document">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content rounded-more">
           <video autoplay loop muted playsinline id="bg-vid-abt">
-            <source src="/public/anim1009.mp4" type="video/mp4" />
+            <source src="/public/anim1009.mp4" type="video/mp4"/>
           </video>
           
           <div class="modal-body text-center">
             <p class="text-white text-uppercase text-abt">
               STUDIO SPATIAL ENTITIES IS AN INTERDISCIPLINARY DESIGN PRACTICE BASED IN MILAN, PRISHTINA AND BARCELONA. 
-              <br />WE WORK AT THE INTERSECTION OF ARCHITECTURE, LANDSCAPE URBANISM AND DESIGN. WE ARE INTERESTED IN EXPLORING HOW COMPUTATION AND ECOLOGY CAN GENERATE NEW WAYS OF THINKING ABOUT DESIGN.<br />
-              <br />S-SE is a collaboration of&nbsp;
+              <br>
+              WE WORK AT THE INTERSECTION OF ARCHITECTURE, LANDSCAPE URBANISM AND DESIGN. WE ARE INTERESTED IN EXPLORING HOW COMPUTATION AND ECOLOGY CAN GENERATE NEW WAYS OF THINKING ABOUT DESIGN.
+              <br><br>
+              S-SE is a collaboration of&nbsp;
               <a
-                href="https://www.linkedin.com/in/erz%C3%AB-dinarama-20532558/"
-                target="_blank"
+                data-toggle="modal"
+                data-target="#erze"
                 class="font-weight-bold text-white"
                 >ERZË DINARAMA</a
               >
               and
               <a 
-                href="https://www.linkedin.com/in/iacopo-neri-25a375132/"
-                target="_blank"
+                data-toggle="modal"
+                data-target="#iacopo"
                 class="font-weight-bold text-white"
                 >IACOPO NERI</a
               >
@@ -179,5 +170,105 @@
       </div>
     </div>
 
+    <!-- Modal ERZE-->
+    <div
+      class="modal"
+      id="erze"
+      tabindex="-1"
+      aria-labelledby="aboutCenterTitle"
+      aria-hidden="true"
+    >
+
+      <div class="modal-dialog modal-dialog-centered sub-modal" role="document">
+        <div class="modal-content rounded-more bg-col">          
+          <div class="modal-body text-center">
+            <div class="profile-pic-wrap">
+              <img src="	https://drive.google.com/uc?export=view&id=1kttotziQ5DcD5fVyk0LGkdALllsu7b9Z" alt="" class="profile-pic">
+            </div>
+            <p class="text-white text-abt">
+              Erzë is an interdisciplinary designer and researcher working at the intersection of architecture, landscape urbanism, and computational design.  
+              <br>
+              Erzë has practiced in Italy, Kosovo, Germany, and Austria, and has also been involved in teaching activities at the Polytechnic University of Milan, Turin, Piacenza, and at the School of Design in Milan. Additionally, she has been an invited critic at Rice University, Pratt Institute, and IAAC - Institute for Advanced Architecture of Catalonia.
+              <br><br>
+              Erzë has exhibited at Pecci Museum in Prato and at the Landscape Festival Prague, and has been published at the ACADIA conference.
+              <br><br>
+              Erzë holds a Bachelor's Degree in Architecture at The University of Prishtina, and a Masters Degree in Architecture with Distinction at The Polytechnic University of Milan.Additionally, she holds a Professional Certificate Degree in Advanced Architecture at The University of Berkeley, California, with a Distinction in Design, for which she has been awarded the USAID Transformational Leadership Program scholarship. She has also been awarded a scholarship for academic success while at The University of Prishtina, and the Ministry of Foreign Affairs and International Cooperation Scholarship for her studies at the Polytechnic University of Milan. During her studies, she has done exchange programs at the University of Bologna and Czech Technical University.
+              <br><br>
+              Among studios she has been involved in are Studio Olafur Eliasson, and Elisa Cattaneo landscape architecture. During her collaboration with Elisa Cattaneo, among other projects, she was also landscape architecture Project Leader for the Budapest Southgate competition in collaboration with Studio Eisenman Architects.
+              <br><br>
+              Erzë currently works at studio Carlo Ratti Associati, and teaches at Politecnico di Milano and  Politecnico di Torino.
+              <br><br>
+            </p>
+            <a
+            href="https://www.linkedin.com/in/erz%C3%AB-dinarama-20532558"
+            target="_blank"
+            ><i
+              class="fab fa-linkedin fa-1x profile-icon"
+              aria-hidden="true"
+            ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal IACOPO-->
+    <div
+    class="modal"
+    id="iacopo"
+    tabindex="-1"
+    aria-labelledby="aboutCenterTitle"
+    aria-hidden="true"
+    >
+
+      <div class="modal-dialog modal-dialog-centered sub-modal" role="document">
+        <div class="modal-content rounded-more bg-col">          
+          <div class="modal-body text-center">
+            <div class="profile-pic-wrap">
+            <img src="	https://drive.google.com/uc?export=view&id=1wPag37EMc_x0ZSsLCBd9y5FycPLAHXNe" alt="" class="profile-pic"></div>
+            <p class="text-white text-abt">
+              Iacopo Neri’s research lies at the intersection of architecture, computer science, and urban planning.
+              <br><br>
+              Iacopo has been involved in academia since 2015, researching computational design and geospatial analysis. He has been involved in teaching activities at the University of Florence, The Polytechnic University of Milan, and at IAAC - Institute for Advanced Architecture of Catalonia, where he is currently faculty of computational design and part of the Advanced Architectural Group’s Computational Design Research Team.
+              <br><br>
+              Additionally, Iacopo has been guest faculty for workshops, lecture and invited critic in several international universities among which the New York Institute of Technology, the Universidad Torcuato Di Tella in Buenos Aires, and the Ecole des Ponts - ParisTech.
+              <br><br>
+              In parallel, Iacopo has been practicing as a computational designer within External Reference Architects studio, Barcelona, and as a consultant for Systematica, Milan.
+              <br><br>
+            </p>
+            <a
+            href="https://www.linkedin.com/in/iacopo-neri-25a375132/"
+            target="_blank"
+            ><i
+              class="fab fa-linkedin fa-1x profile-icon"
+              aria-hidden="true"
+            ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Cursor -->
+    <div id="cursor" class="square"></div>
+    <script type="text/javascript">
+      var cursor = document.getElementById("cursor");
+      document.addEventListener("mousemove", function (e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+      });
+    </script>
+
+    <script>
+      $('a').hover(
+       function(){ $('#cursor').toggleClass('circle') }
+      )
+      $('img').hover(
+       function(){ $('#cursor').toggleClass('bigger') }
+      )
+    </script>
   </body>
 </html>
