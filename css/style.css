@@ -4,14 +4,6 @@
   border: 0;
 }
 
-@media (max-width: 767px) {
-  html {
-    zoom: 2 !important;
-    -moz-transform: scale(2) !important;
-    -moz-transform-origin: 0 0 !important;
-  }
-}
-
 body {
   color: #f02424;
   color: black;
@@ -36,12 +28,6 @@ br {
   align-items: center;
   padding: 50px 100px;
   margin: 0 0;
-}
-
-@media (max-width: 767px) {
-  #landing-container {
-    height: 90vh;
-  }
 }
 
 #landing-item-title {
