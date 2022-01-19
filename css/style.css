@@ -156,9 +156,11 @@ i.profile-icon {
   border-radius: 10px;
 }
 
+/*
 @media (max-width: 767px) {
   #landing-container {
     padding: 25px 25px;
+    height: 90vh;
   }
 
   #landing-item-title {
@@ -173,6 +175,7 @@ i.profile-icon {
     font-size: 2rem;
   }
 }
+*/
 
 .sub-modal {
   max-width: 600px;

@@ -272,19 +272,14 @@
     </script>
 
     <script>
-      if (document.documentElement.clientWidth < 760) { 
-        document.querySelector("meta[name=viewport]").setAttribute(
-              'content', 
-              'width=900, initial-scale=2');
+      if (document.documentElement.clientWidth < 901) { 
+        document.querySelector("html").style.fontSize ='20px';
       }
-      
-      if (document.documentElement.clientWidth < 760) {
-      document.getElementById("landing-container").setAttribute(
-              'height', 
-              '90vh');
+
+      if (document.documentElement.clientWidth < 901) {
+      document.getElementById("landing-container").style.height ='90vh'
       }
     </script>
-
 
   </body>
 </html>
