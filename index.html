@@ -100,17 +100,25 @@
 
       <div id="landing-item-subtitle">
         <p>FOR PROJECT ENQUIRIES OR QUESTIONS</p>
-        <a href="mailto:studio.spatial.entities@gmail.com" target="_top"
+        <a class="underline" href="mailto:studio.spatial.entities@gmail.com" target="_top"
           >STUDIO.SPATIAL.ENTITIES@GMAIL.COM</a
         >
       </div>
 
       <div id="landing-item-bottom">
-        <div class="text-left">
+        <div class="text-left vertical ">
+
           <a class="text-decoration-none" 
-          data-toggle="modal"
-          data-target="#about">ABOUT</a>
+              href="#research"
+              data-toggle="modal"
+              data-target="#research">RESEARCH</a>
+
+          <a class="text-decoration-none" 
+              href="#about"
+              data-toggle="modal"
+              data-target="#about">ABOUT</a>
         </div>
+
         <div class="text-right">
           <svg height="7.5" width="150">
             <line
@@ -126,7 +134,7 @@
 
     </header>
 
-    <!-- Modal -->
+    <!-- Modal ABOUT-->
     <div
       class="modal "
       id="about"
@@ -147,8 +155,9 @@
               <br>
               WE WORK AT THE INTERSECTION OF ARCHITECTURE, LANDSCAPE URBANISM AND DESIGN. WE ARE INTERESTED IN EXPLORING HOW COMPUTATION AND ECOLOGY CAN GENERATE NEW WAYS OF THINKING ABOUT DESIGN.
               <br><br>
-              S-SE is a collaboration of&nbsp;
+              S-SE is a collaboration between&nbsp;
               <a
+              href="#erze"
                 data-toggle="modal"
                 data-target="#erze"
                 class="font-weight-bold text-white"
@@ -249,6 +258,142 @@
       </div>
     </div>
 
+    <!-- Modal RESEARCH-->
+    <div
+      class="modal "
+      id="research"
+      tabindex="-1"
+      aria-labelledby="aboutCenterTitle"
+      aria-hidden="true"
+    >
+
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded-more bg-black bg-transition" id ="modal-research">          
+          <div class="modal-body d-flex flex-column">
+              <div class="p-2  text-white align-items-stretch">TEACHING
+                <div class="d-flex flex-column">
+                  <div class="p-2 text-white ml-auto">
+                    <a class="text-decoration-none text-white" 
+                      id = "a_flow"
+                      href="#flowing-towards"
+                      data-toggle="modal"
+                      data-target="#flowing">Flowing Towards - ATAL 2021
+                    </a>
+                  </div>
+                  <div class="p-2 text-white ml-auto">
+                    <a class="text-decoration-none text-white" 
+                      href="#flowing-towards"
+                      data-toggle="modal"
+                      data-target="#flowing">eCAADe 2021 - Tirana Datascape
+                    </a>
+                  </div>
+                  <div class="p-2 text-white ml-auto">
+                    <a class="text-decoration-none text-white" 
+                      href="#flowing-towards"
+                      data-toggle="modal"
+                      data-target="#flowing">eCAADe 2020 - Wild River
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <hr style="max-width:100%; width:100%">
+              <div class="p-2 text-white align-items-stretch">WORK
+                <div class="d-flex flex-column">
+                  <div class="p-2 text-white ml-auto">
+                    <a class="text-decoration-none text-white" 
+                      href="/flymeet"
+                      target="blank">Fly & Meet
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal FLOWING-->
+    <div
+      class="modal "
+      id="flowing"
+      tabindex="-1"
+      aria-labelledby="aboutCenterTitle"
+      style="padding-left:0;"
+      aria-hidden="true"
+    >
+
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable proj-modal" role="document">
+        <div class="modal-content rounded-more bg-col">          
+          <div class="modal-body text-center text-white m-3">
+            <div class="mt-4">
+              <h2 class="text-uppercase">Flowing Towards</h2>
+              <hr>
+              <h5>Choreographing river dynamics</h5>
+              <p class="text-abt">Assume there’s a landscape collects 18 researches focusing on different perspectives, projects and interpretations of inner territories and the role of non-urban realm in contemporary architecture.</p>
+             </div>
+            <div class="center-wrap mt-5 mb-5">                
+              <div class="carousel js-flickity">
+                <div class="carousel-cell">
+                  <img src="https://freight.cargo.site/w/1500/q/75/i/756d4d6eeb52aef43b941589067d410b4095a7127618cc364cfaa2dad05075db/FT_atlas_01.jpg" alt="Callisto" />
+                </div>
+                <div class="carousel-cell">
+                  <img src="https://freight.cargo.site/w/1500/q/75/i/6f7fca1a6fe2e83739f268433de53ecd07a04a15a5a9110795fb5c468783c14c/FT_atlas_04.jpg" alt="..." />
+                </div>
+                <div class="carousel-cell">
+                  <img src="https://freight.cargo.site/w/1500/q/75/i/9305355266e6b335a58f5df2b91b20b055f0139683e72c6872b553fbd97c0d9e/FT_atlas_07.jpg" alt="..." />
+                </div>
+              </div>      
+              <script src="https://npmcdn.com/flickity@2.2.1/dist/flickity.pkgd.js"></script>
+            </div>
+              <div class="m-3 text-abt">
+                <p class="text-abt">
+                  The research aims at exploring the agency of water systems using computational tools.
+                  Furthermore, how the agency and dynamics of water as a non-human entity, can be investigated, represented, and in this way included in our imaginary.
+                  <br>
+                  The research is placed within the discourse of art and science, and is done through drawings - Performative Calligraphies, that entail more data driven or scientific aspects through which the drawing becomes an investigative one.
+                  </p>
+                  <div class="center-wrap mt-5 mb-5">                
+                    <div class="carousel js-flickity">
+                      <div class="carousel-cell">
+                        <img src="https://freight.cargo.site/w/1500/q/75/i/dc0f6f6e14ca364911c6e0ba80ba9dba281fb2597daa61aec6826916d9aaba4a/FT_atlas_02.jpg" alt="Callisto" />
+                      </div>
+                      <div class="carousel-cell">
+                        <img src="https://freight.cargo.site/w/1500/q/75/i/64523fe63cfa7896521fbd5d6105197b9eec501698bc09de5425ed0aba6f06aa/FT_atlas_05.jpg" alt="..." />
+                      </div>
+                      <div class="carousel-cell">
+                        <img src="https://freight.cargo.site/w/1500/q/75/i/abd7748be7c71ed6ea9a462db564fdd3e9c73cc863ee98264c50eafa4fec5d4c/FT_atlas_08.jpg" alt="..." />
+                      </div>
+                    </div>      
+                    <script src="https://npmcdn.com/flickity@2.2.1/dist/flickity.pkgd.js"></script>
+                  </div>
+                  <p class="text-abt">
+                  
+                  Scientific instruments give a new picture of nature that otherwise remains invisible; in this case, computation is used in a similar manner. The interdisciplinarity coming from the art and science debate finds new ground.
+                  
+                  With increasing interest in studying climate change impacts, not only from the scientific community but from the general public as well, it has become particularly important to represent non-human entities such as water in this case, exploring it’s space time dynamics, non-linear nature, and therefore showing the complexity of ecological systems.
+                  </p>
+                  <div class="center-wrap mt-5 mb-5">                
+                    <div class="carousel js-flickity">
+                      <div class="carousel-cell">
+                        <img src="https://freight.cargo.site/w/1500/q/75/i/48f545b25577206a961adf51ea11c5c2d3da5ffab1b20a5bdb33066a56c45291/FT_atlas_06.jpg" alt="Callisto" />
+                      </div>
+                      <div class="carousel-cell">
+                        <img src="https://freight.cargo.site/w/1500/q/75/i/605ab19be4c5391cebd00daf055acd3742fcd03de7b9aa9248243f5bf3b66eea/FT_atlas_09.jpg" alt="..." />
+                      </div>
+                      <div class="carousel-cell">
+                        <img src="https://freight.cargo.site/w/1500/q/75/i/72d735c03ae78d925e328cd25aecac12b1d2d09dad93fb9bd303120da4a92520/FT_atlas_12.jpg" alt="..." />
+                      </div>
+                    </div>     
+                  </div>
+                  <p class="text-abt">                  
+                  The drawings speculate on river dynamics, and the possibility to choreograph them.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Cursor -->
     <div id="cursor" class="square"></div>
@@ -271,6 +416,20 @@
       )
     </script>
 
+     <!-- Load Modal -->
+     <script>
+      varHref = ['#about','#erze','#iacopo', '#flowing-towards']
+
+      jQuery.each(varHref, function(index, item) {
+        $(document).ready(function() {
+          if(window.location.href.indexOf(item) != -1) {
+            $(item).modal('show');
+          }
+        });
+      });
+    </script>
+   
+    <!-- Adjust Size mobile -->
     <script>
       if (document.documentElement.clientWidth < 901) { 
         document.querySelector("html").style.fontSize ='20px';
@@ -281,5 +440,26 @@
       }
     </script>
 
+
+    <!-- Adjust Carousel on Modal opening -->
+    <script>
+    var $carousel = $('.carousel').flickity();
+    var isFlickity = true;
+    $( ".modal" ).on('shown.bs.modal', function(){
+        $carousel.flickity('destroy');
+        $carousel.flickity();
+        isFlickity = !isFlickity;
+    });
+    </script>
+
+
+    <!-- Change bg modal research 
+    <script>
+      $('#a_flow').hover(
+      function(){ $('#modal-research').toggleClass('bg-flow') }
+      )
+
+    </script>
+-->
   </body>
 </html>
